@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  list-style: none;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;
+}
+
+/*Imagens*/
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+#plus img {
+  height: 50px;
+  width: 50px;
+}
+
+.perfil img:hover {
+  box-sizing: border-box;
+  border: 2px solid #e5e5e5;
+}
+
+/*Área dos elementos*/
+.container-pai {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 0;
+}
+
+.container {
+  background-color: #141414;
+  align-items: center;
+  display: flex;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+h1 {
+  display: block;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/*Imagens ou/e nomes*/
+.lista-perfis {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.lista-perfis p:hover {
+  color: #e5e5e5;
+}
+
+.perfil {
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.perfil p {
+  color: #808080;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+
+#plus {
+  border-radius: 3px;
+  padding: 23px 25px;
+}
+#plus:hover {
+  background-color: #e5e5e5;
+}
+
+/*Botão*/
+#btn {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #808080;
+  color: #808080;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+#btn:hover {
+  border: 1px solid #e5e5e5;
+  color: #e5e5e5;
+}
